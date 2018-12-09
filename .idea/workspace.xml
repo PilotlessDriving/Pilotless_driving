@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15518b5b-ebb2-46a0-8bb8-e347427df61f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/char_split.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contour_recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/contour_recognition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pic/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/test_pic/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/char_split.py" beforeDir="false" afterPath="$PROJECT_DIR$/char_split.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_pic/thre_res.png" beforeDir="false" afterPath="$PROJECT_DIR$/test_pic/thre_res.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +14,13 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Pilotless_driving$contour_recognition.coverage" NAME="contour_recognition Coverage Results" MODIFIED="1544361721078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Pilotless_driving$char_split.coverage" NAME="char_split Coverage Results" MODIFIED="1544363493774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pilotless_driving$char_split.coverage" NAME="char_split Coverage Results" MODIFIED="1544364356171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1848451099">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -41,12 +41,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4002" />
+          <entry key="py" value="4106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4002" />
+          <entry key="Python" value="4106" />
         </counts>
       </usages-collector>
     </session>
@@ -81,12 +81,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/char_split.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="103" column="75" selection-start-line="103" selection-start-column="75" selection-end-line="103" selection-end-column="75" />
+            <state relative-caret-position="74">
+              <caret line="65" column="80" lean-forward="true" selection-start-line="65" selection-start-column="80" selection-end-line="65" selection-end-column="80" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1544363373369" expanded="true" signature="93:3308" ph="..." />
-                <marker date="1544363373369" expanded="true" signature="1995:2976" ph="..." />
+                <marker date="1544364354940" expanded="true" signature="97:3479" ph="..." />
+                <marker date="1544364354940" expanded="true" signature="2168:3147" ph="..." />
               </folding>
             </state>
           </provider>
@@ -135,8 +135,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="564" />
-    <option name="y" value="103" />
+    <option name="x" value="439" />
+    <option name="y" value="101" />
     <option name="width" value="1400" />
     <option name="height" value="913" />
   </component>
@@ -256,7 +256,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="564" y="103" width="1400" height="913" extended-state="1" />
+    <frame x="439" y="101" width="1400" height="913" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -270,7 +270,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32886723" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32886723" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -329,12 +329,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/char_split.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="103" column="75" selection-start-line="103" selection-start-column="75" selection-end-line="103" selection-end-column="75" />
+        <state relative-caret-position="74">
+          <caret line="65" column="80" lean-forward="true" selection-start-line="65" selection-start-column="80" selection-end-line="65" selection-end-column="80" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1544363373369" expanded="true" signature="93:3308" ph="..." />
-            <marker date="1544363373369" expanded="true" signature="1995:2976" ph="..." />
+            <marker date="1544364354940" expanded="true" signature="97:3479" ph="..." />
+            <marker date="1544364354940" expanded="true" signature="2168:3147" ph="..." />
           </folding>
         </state>
       </provider>

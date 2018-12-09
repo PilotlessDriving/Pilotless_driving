@@ -1,6 +1,6 @@
 import cv2
 import contour_recognition
-import numpy as np
+from time import sleep
 
 
 def char_preprocess(contour_path):
@@ -8,10 +8,10 @@ def char_preprocess(contour_path):
     img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
     img_thre = img_gray
-    cv2.threshold(img_gray, 100, 255, cv2.THRESH_BINARY_INV, img_thre)
+    cv2.threshold(img_gray, 100, 255, cv2.THRESH_BINARY, img_thre)
 
-    # cv2.imshow('threshold', img_thre)
-    # cv2.waitKey(0)
+    cv2.imshow('threshold', img_thre)
+    cv2.waitKey(0)
 
     cv2.imwrite('./test_pic/thre_res.png', img_thre)
 
@@ -57,8 +57,13 @@ def char_split(img_thre):
 
     arg = False  # False 白底黑字 True 黑底白字
     print(black_max)
+    print(black_max_counter)
     print(white_max)
+    print(white_max_counter)
+    # sleep(1000)
     if black_max > white_max and black_max_counter > white_max_counter:
+        arg = True
+    elif white_max < black_max + 5 and black_max_counter > white_max_counter + 5:
         arg = True
 
     return width, height, white, black, white_max, black_max, arg
@@ -97,7 +102,7 @@ def pic_split(src_path):
                 cv2.namedWindow(str(char_counter))
                 cv2.imshow('spilt'+str(char_counter), cj)
                 char_counter += 1
-                # cv2.waitKey(0)
+                cv2.waitKey(0)
 
 
 if __name__ == '__main__':
