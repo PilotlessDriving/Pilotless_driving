@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Author: yucheng
 
-import sys
+# 该文件检测车牌框并且将车牌图片放置在test_pic中的number_plate中
 import cv2
 import numpy as np
 
@@ -78,15 +78,21 @@ def detect(img):
 
         img_org2 = img.copy()
         img_plate = img_org2[y1:y2, x1:x2]
-        cv2.imshow('number plate', img_plate)
+        # cv2.imshow('number plate', img_plate)
         cv2.imwrite('./test_pic/number_plate.jpg', img_plate)
 
-        cv2.namedWindow('img', cv2.WINDOW_NORMAL)
-        cv2.imshow('img', img)
+        # cv2.namedWindow('img', cv2.WINDOW_NORMAL)
+        # cv2.imshow('img', img)
         cv2.imwrite('./test_pic/contours.png', img)
 
-        cv2.waitKey(0)
-        cv2.destroyAllWindows()
+        # cv2.waitKey(0)
+        # cv2.destroyAllWindows()
+        return img_plate, img
+
+
+def get_contour(src_path):
+    src_img = cv2.imread(src_path)
+    return detect(src_img)
 
 
 if __name__ == '__main__':
